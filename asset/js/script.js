@@ -44,3 +44,33 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+  //Learn
+  const btn1 = document.getElementById('btn1');
+  const btn = document.querySelector('button');
+  const icon = document.getElementById('icon');
+  const body = document.body;
+
+
+  function clickBtn() {
+    const txt = document.createElement('p'); //deklrasi pembuatan elemetn P
+    txt.textContent = 'Belajar DOM'; //isi dari dalam element P
+    body.append(txt); //mendorong isi dalam variable P kedalam body html
+  }
+
+  function setColor() {
+   btn2.style.color = '#ffffff';
+  }
+
+  function defaultColor() {
+    btn2.style.color = '#1545e2';
+  }
+
+  // onclick terjadi ketika elemen diklik oleh pengguna.
+  // onmouseover terjadi ketika kursor mouse berada di atas elemen.
+  // onmouseout terjadi saat kursor mouse meninggalkan elemen setelah sebelumnya berada di atasnya.
+  // onkeydown terjadi saat tombol keyboard ditekan.
+  // onkeyup terjadi saat tombol keyboard dilepaskan setelah sebelumnya ditekan.
+  // onchange terjadi saat nilai elemen input berubah.
+  // onload terjadi ketika elemen atau halaman telah selesai dimuat sepenuhnya.

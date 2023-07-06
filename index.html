@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/asset/css/swiper-bundle.min.css">
 
 </head>
-<body>
+<body id="body">
     <nav>
         <a href="#header" class="logo">ALBIDEV</a>
         <!-- <img src="/asset/img/logo-brc - web.png" alt="BRC" class="logo"> -->
@@ -45,8 +45,8 @@
                     <h3 class="sub-heading"></h3>
                 </div>
                 <div class="button">
-                    <a href="#services"><div class="button-primary">Info</div></a> 
-                    <a href="https://bit.ly/WhatssappKontakAdmin1"><div class="button-secondary"><i class='bx bxl-whatsapp icon-whatsapp'></i></div></a>
+                    <a href="#services"><div class="button-primary" id="btn1" onclick="clickBtn()">Info</div></a> 
+                    <a href="https://bit.ly/WhatssappKontakAdmin1"><div class="button-secondary" id="btn2" onmouseover="setColor()" onmouseout="defaultColor()"><i class='bx bxl-whatsapp icon-whatsapp'></i></div></a>
                 </div>
             </div>
             <div class="item2 image"></div>
