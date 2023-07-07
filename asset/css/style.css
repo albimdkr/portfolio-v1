@@ -208,6 +208,12 @@ nav ul li a {
     padding: 0 10px;
 }
 
+.nav-link {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
 nav ul li a:after {
   content: "";
   position: absolute;

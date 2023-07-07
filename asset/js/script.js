@@ -50,6 +50,7 @@ var swiper = new Swiper(".mySwiper", {
   const btn1 = document.getElementById('btn1');
   const btn = document.querySelector('button');
   const icon = document.getElementById('icon');
+  btn2.style.color = '#1545e2';
   const body = document.body;
 
 
